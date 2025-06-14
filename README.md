@@ -1,7 +1,7 @@
 # Fake-News-detection
 This project aims to identify whether a given news article is real or fake using Natural Language Processing (NLP) techniques and machine learning models. It is a classification problem built with Python and trained on labeled datasets of real and fake news articles.
 
-** Dataset**
+**Dataset**
 The project uses two CSV files:
 Fake.csv — Contains fake news articles.
 True.csv — Contains real news articles.
