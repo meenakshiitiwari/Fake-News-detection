@@ -1,12 +1,13 @@
 # Fake-News-detection
 This project aims to identify whether a given news article is real or fake using Natural Language Processing (NLP) techniques and machine learning models. It is a classification problem built with Python and trained on labeled datasets of real and fake news articles.
-📂 Dataset
+
+** Dataset**
 The project uses two CSV files:
 Fake.csv — Contains fake news articles.
 True.csv — Contains real news articles.
 Both datasets are publicly available and include the text of the articles along with metadata such as titles and publication dates.
 
-🧠 Project Pipeline
+**Project Pipeline**
 1. Data Preparation
 Loaded and merged real and fake datasets.
 Labeled articles (0 for fake, 1 for real).
@@ -30,12 +31,12 @@ Trained classification models such as:
 Logistic Regression
 Naive Bayes
 
-Evaluated model performance using:
+**Evaluated model performance using:**
 Accuracy
 Precision, Recall, F1-Score
 Confusion Matrix
 
-#Results
+**Results**
 The best-performing model achieved:
 Accuracy: ~85% (Adjust based on your results)
 Good separation of real and fake articles based on the feature space.
